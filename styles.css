@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.Box{
+    background-color: #1F2937;
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    transform: translate(50% -50%);
+    display: flex;
+    flex-direction: column;
+}
+.titleBox{
+    height: 25%;
+    width: 70%;
+    margin: 40px 0px 0px 40px;
+}
+.title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.second{
+    color: #047857;
+}
+.third{
+    color: #D5D4D8;
+    font-size: 20px;
+}
+.generate_btn{
+    color: white;
+    height: 8%;
+    width: 30%;
+    background-color: #10B981;
+    border-radius: 5px;
+    margin: 40px 0px 0px 40px;
+    font-size: 30px;
+    line-height: 24px;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.generate_btn>i{
+    padding-left:15px;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.passwordContainer{
+    height: 30%;
+    width: 85%;
+    margin: 40px 0px 0px 40px;
+    background-color: #1F2937;
+    border-top: 2px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.password{
+    background-color: #273549;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    border-radius: 5px;
+    width: 40%;
+    margin: 15px;
+    color: #34D399;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+.password>i{
+    font-size: 30px;
+    color: black;
+}
+
